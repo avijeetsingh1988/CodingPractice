@@ -1,0 +1,1 @@
+print("this is submodule2 under subpackage2")

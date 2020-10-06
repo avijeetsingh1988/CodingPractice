@@ -1,0 +1,44 @@
+Syntax for creating a table:
+CREATE TABLE ‘table name’ ( ‘column name’ DATA TYPE(INT, TEXT,VARCHAR ETC))
+ 
+Syntax for deleting a table:
+DROP TABLE ‘table name’ ;
+
+Adding values to the table:
+INSERT INTO ‘table name’(‘column1 name’, ‘column2 name’)  VALUES ( ‘column1 value’,  ‘column2 value’..) 
+
+Displaying everything in the table:
+SELECT * FROM ‘table name’ ;
+
+Displaying specific columns from the table:
+SELECT ‘column1 name’, ‘column2 name’ FROM ‘table name’;
+
+Filtering in the table:
+SELECT * FROM ‘table name’
+WHERE ‘column1 name’= ‘column1 value’;
+
+For multiple filters where either of two conditions are met:
+SELECT * FROM ‘table name’
+WHERE ‘column1 name’= ‘column1 value’
+OR ‘column1 name’= ‘column1 value2’;
+
+For multiple filters where both conditions are met:
+SELECT * FROM ‘table name’
+WHERE ‘column1 name’= ‘column1 value’
+AND ‘column2 name’= ‘column2 value’;
+
+Sorting according to a column:
+SELECT * FROM ‘table name’
+ORDER BY ‘column name’ (This will by default order by ascending order, if you want to order by descending then we need to mention DESC)
+
+Updating a table:
+UPDATE ‘table name’
+SET ‘column name’= ‘column value’ (This will update the entire column)
+
+Deleting values from table:
+DELETE FROM ‘table name’ (This will delete all records in the table)
+
+
+
+
+

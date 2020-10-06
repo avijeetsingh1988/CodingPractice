@@ -1,0 +1,2 @@
+To check what version of python is installed on the system use: python --version in your command line.
+Higher Order Functions: A function that takes other functions as it arguments or returns a funciton.
