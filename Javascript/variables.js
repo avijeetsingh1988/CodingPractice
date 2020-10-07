@@ -21,4 +21,4 @@ let groceries = ['apple','banana','kiwi']; // this is called an array which is l
 let f; //undefined
 let nothing = null // value null
 
-console.log(groceries[1]);
+console.log(groceries[3]);
