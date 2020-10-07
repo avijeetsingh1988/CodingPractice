@@ -20,3 +20,5 @@ let truth = false; //boolean
 let groceries = ['apple','banana','kiwi']; // this is called an array which is like a list in python
 let f; //undefined
 let nothing = null // value null
+
+console.log(groceries[1]);
